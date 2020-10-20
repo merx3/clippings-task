@@ -6,3 +6,21 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+input {
+    &[type='file'] {
+        margin-left: 10px;
+    }
+    &[type='number'], &[type='text'] {
+        margin-left: 10px;
+        border: 1px solid;
+        width: 64px;
+    }
+    &[type='text'] {
+        width: 128px;
+    }
+}
+
+label, span { display:block }
+
+.result { margin-top: 12px }
