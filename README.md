@@ -19,5 +19,7 @@ Setup:
 - run composer install and npm install (for any js changes, run "npm run dev")
 - run "php artisan serve"
 
-For tests use "php artisan test"
+For running unit tests use "php artisan test"
+
+A demo input csv file can be found in "demo_input/data.csv"
  
